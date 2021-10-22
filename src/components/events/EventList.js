@@ -9,7 +9,6 @@ export const EventList = () => {
 
     const eventFetcher = () => {
         getEvents().then(data => {
-            debugger
             updateEvents(data)
         })
     }
