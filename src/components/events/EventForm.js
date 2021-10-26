@@ -27,13 +27,13 @@ export const EventForm = () => {
         setCurrentEvent(newEventState)
     }
     const changeDateState = (event) => {
-        debugger
+
         const newEventState = { ...currentEvent }
         newEventState.date = event.target.value
         setCurrentEvent(newEventState)
     }
     const changeTimeState = (event) => {
-        debugger
+
         const newEventState = { ...currentEvent }
         newEventState.time = event.target.value
         setCurrentEvent(newEventState)
